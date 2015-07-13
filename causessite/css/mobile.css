@@ -1,0 +1,172 @@
+#wrap{
+	width: 480px;
+}
+
+#bckgrndPix{
+    z-index: -1;
+    position: fixed;
+    top:400px; 
+    padding: 0px;
+    
+}
+
+#bgimg{
+    width: 480px;
+    height: 300px;
+    
+}
+
+body{
+    padding: 0 auto;
+}
+
+
+#header{
+    width: 100%;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background-color: rgba(92,171,255,1);
+     text-align: center;
+ font-family: 'Orbitron', sans-serif;
+ font-size: 30px;
+ color: red;
+
+
+
+ 
+ 
+
+    
+}
+
+nav{
+	display: none;
+}
+
+#help{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+.twoP{
+    font-family: Verdana;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 800px;
+    position: absolute;
+    z-index: 4;
+    
+}
+
+#onePic{
+  border: solid grey 5px;
+  position: relative;
+  top: 180px;
+  left: 60px;
+  width: 300px;
+    height: 199px;
+    overflow: hidden;
+    z-index: 3;
+ 
+
+
+}
+
+#threePic{
+    border: solid grey 5px;
+    position: relative;
+    top: 260px;
+    left: 60px;
+    width: 300px;
+    height: 199px;
+    z-index: 3;
+    
+
+    }
+
+#pbVolunteer{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+    z-index: 5;
+    clear: left;
+    
+
+
+}
+
+#pbVolunteer p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}    
+
+   
+
+ #pbDonate{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+    z-index: 2;
+    clear: left;
+    width: 200px;
+
+
+}
+
+ #pbDonate p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}  
+
+
+
+
+
+
+#footer{
+width: 100%;
+height: 10px;
+margin-top: 600px;
+
+font-size: 40pt;
+padding: 10px;
+color: red;
+   
+}
+
+#footer p{
+	background-color: rgba(0,0,0,0.1);
+	padding-left: 0px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

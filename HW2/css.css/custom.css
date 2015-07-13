@@ -1,0 +1,56 @@
+body {
+	background-color: #c6c386;
+} /* this is a comment */
+h1 {
+	color:#0095b6;text-align:center;
+	} 
+
+h2 {
+	color:#0892d0;text-align:center;
+}	
+
+}
+h4 {
+	color:white;
+}
+
+#mySpecialOne{ 
+color:#7df9ff;
+}
+
+.typeOneDiv{
+	border: dashed 1px white;
+width: 500px;
+height: 50px;
+color: red;
+background: #0892d0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.typeTwoDiv{
+	background-color: #0892d0;
+	border: solid;
+	font-size: 30pt;
+	font-family: sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	color:red;
+}
+
+.typeThreeDiv{
+	border: solid 2px #0892d0;
+	width:150px;
+	background-color: red;
+	font-size: 20pt;
+	font-weight: bolder;
+	margin-left: auto;
+	margin-right: auto;
+
+	color:green;
+
+}
+
+
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html> 
+<head>
+<title>Lesson_6</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="l6_scripts/scripts.js"></script>
+  <style> 
+
+#redSq{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+      
+}
+
+#redSq1{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 0;
+    margin-left: 150px;
+      
+}
+
+#redSq2{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    top: 8px;
+    left: 158px;
+      
+}
+
+#redSq3{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    top: 158px;
+    left: 8px;
+      
+}
+
+#blackSq{
+	width: 150px;
+    height: 150px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: black;
+    position: absolute;
+    z-index: -1;
+    top: 8px;
+    left: 8px;
+
+       
+
+}
+#blackSq1{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    z-index: -1;
+    top: 158px;
+    left: 158px;
+      
+}
+
+#blackSq2{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-top-left-radius: 0;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+    z-index: -1;
+    top: 8px;
+    left: 158px;
+      
+}
+#blackSq3{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 158px;
+    left: 8px;
+      
+}
+
+#gradient{
+    width: 90%;
+    height: 200px;
+    margin-bottom: 200px;
+    position: absolute;
+    top: 450px;
+    z-index: 2;
+    background: -webkit-linear-gradient(lightyellow, lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightyellow, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightyellow, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightyellowlight, lightblue); /* Standard syntax (must be last) */
+
+}
+
+h2{
+	font-size: 80px;
+	background: -webkit-linear-gradient(lightblue, lightyellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	display: none;
+    margin-left: 100px;
+	position: relative;
+	z-index: 3;
+}
+
+
+
+</style>
+</head>
+<body>
+
+	<div class="redQtrs">
+       <div id="redSq"></div>
+       <div id="redSq1"></div>
+       <div id="redSq2"></div>
+       <div id="redSq3"></div>
+     </div>
+       <div class="blackQtrs">
+       <div id="blackSq"></div>
+       <div id="blackSq1"></div>
+       <div id="blackSq2"></div>
+       <div id="blackSq3"></div>
+     </div>
+
+     <h2>Click the Red and Black circle</h2>
+
+       <div id="gradient"></div>
+<div id="box"></div>
+       
+</body>
+
+
+</html>

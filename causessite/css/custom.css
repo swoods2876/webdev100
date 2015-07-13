@@ -1,0 +1,294 @@
+#wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#bckgrndPix{
+    z-index: -1;
+    position: fixed; 
+    margin: 0 auto;
+}
+
+#bgimg{
+    width: 960px;
+    height: 700px;
+}
+
+body{
+    padding: 0 auto;
+}
+
+
+#header{
+    width: 100%;
+    height: 100px;
+    padding:0px;
+    background-color: rgba(92,171,255,1);
+    position: relative;
+    border-bottom: 10px lightgreen solid;
+    
+}
+
+h1{
+ width: 50%;
+ padding-left: 10px;
+ font-family: 'Orbitron', sans-serif;
+ color: red;
+ /*position: relative;*/
+ float: left;
+ /*padding-left: 20px;*/
+ margin-top: 5px;
+ font-size: 70px;
+ margin-bottom: 0px;
+
+    
+}
+
+
+#myForm{
+    position: relative;
+    float: right;
+    top: 300px;
+    left: 300px;
+    border: solid 1px black;
+    height: 200px;
+    width: 600px;
+    position: relative; 
+    padding: 10px;
+
+}
+
+
+
+
+ nav{
+    height: 50px;
+    width: 35%;
+   /* margin-top: 20px;*/
+    float: right;
+    padding-left: 90px;
+
+    
+} 
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+
+nav ul li{
+    float: left;
+    font-family: Verdana;
+    font-size: 25px;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent{
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-color: rgba(92,171,255,.4);
+}
+
+#help{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.twoP{
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#picBar{
+    width: 100%;
+    /*height: 210px;
+    background-color: transparent;
+    position: relative;
+    top: 200px;*/
+    float: left;
+
+}
+
+#onePic{
+  border: outset white 5px;
+  position: relative;
+  float: left;
+  top: 10px;
+  left: 165px;
+  margin: 10px;
+  height: 199px;
+
+
+}
+
+#pbVolunteer{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+    z-index: 2;
+    clear: left;
+    width: 200px;
+
+
+}
+
+#pbVolunteer p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}    
+
+#threePic{
+    border: outset white 5px;
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 165px;
+    margin: 10px;
+    height: 199px;
+    /*overflow: hidden;*/
+    
+
+ }   
+
+ #pbDonate{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+    z-index: 2;
+    clear: left;
+    width: 200px;
+
+
+}
+
+#pbDonate p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}    
+
+/*#twoPic{
+    border: inset red;
+    width: 560px;
+    height: 199px;
+    background-color: rgba(0,255,255,.4);
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    color: red;
+    font-size: 80px;
+    line-height: 0px;
+    text-align: center;
+    padding: 0 auto;*/
+
+
+    
+}  
+
+#footer{
+width: 100%;
+height: 10px;
+margin-top: 600px;
+position: absolute;
+font-size: 40pt;
+
+
+   
+}
+
+#footer p{
+    background-color: rgba(0,0,0,0.1);
+    padding-left: 0px;
+    text-align: center;
+    color: red;
+}
+
+#KichenContent{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#kitch{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+#find{
+    float: left;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#map{
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+    
+}
+
+iframe{
+    /*position: fixed;*/
+    z-index: -99;
+    /*top: 100px;
+    left: 100px;*/
+    width: 300px;
+    height: 300px;
+}
+
+#myForm{
+    /*position: relative;
+    top: 300px;*/
+    float: left;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+/*#form{
+   position: relative;
+   float: left;
+   top: 100px;
+}*/
+
+
+#quote{
+    float:left;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+    margin-top: 100px;
+}
+
+#moneySelection{
+    float: left;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 40px;
+}

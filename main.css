@@ -1,0 +1,73 @@
+
+body{
+	
+	 
+    background-image: url(images/glassjar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:0px;
+
+}
+	
+
+
+
+
+.container{
+	
+	z-index:10;
+	margin: 0 auto;
+	padding-left: 0 auto;
+	padding-right: 0 auto;
+	text-align: center;
+	 position: relative;
+	 margin-top: 200px;
+	 
+    
+}
+
+ul{
+	padding:0px;
+	list-style:none;
+	
+	padding-bottom: 80px;
+}
+
+ul li{
+	
+	height:20px;
+	font-family:verdana;
+	font-size:16pt;
+	border-radius:1px;
+	position:relative;
+	padding-left: 0px;
+	margin-left: 0px;
+	padding-bottom: 2px;
+	
+	
+}
+
+ul li:hover{
+	background:transparent;
+	color: rgba(78, 99, 117, 0.8);
+}
+
+a{
+	text-decoration:none;
+	color: rgba(78, 99, 117, 0.5);
+	display:block;
+	text-align: center;	
+	
+}
+
+.title{
+	
+	font-size:16pt;
+	margin-top: 90px;
+	letter-spacing:16px;
+	font-family:verdana;
+	color:rgba(0,0,0,.5);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}

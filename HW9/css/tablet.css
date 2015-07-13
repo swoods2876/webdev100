@@ -1,0 +1,185 @@
+.container{
+	width: 768px;
+
+}
+
+
+
+#oval1{
+	 width: 200px;
+	height: 100px;
+	background:  linear-gradient(
+      black, grey
+    );
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+     
+     margin-left: 150px;
+     margin-top: 550px;
+     position: fixed;
+     z-index: -99;
+}
+
+#oval2{
+	
+	background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 50%/ 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom: solid 300px white;
+     border-left: solid 20px white;
+     border-right: solid 20px white;
+     margin-left: 130px;
+     margin-top: 590px;
+     position: fixed;
+     z-index: 1;
+}
+
+#ball{
+	width: 100px;
+	height: 100px;
+	background:  radial-gradient(
+      circle closest-side,
+      yellow,
+      #f06d06
+    );
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+
+     margin-left: 200px;
+     margin-top: 570px;
+     z-index: -50;
+
+
+
+}
+
+#ball2{
+	width: 100px;
+	height: 100px;
+	background:  radial-gradient(
+      circle closest-side,
+      yellow,
+      #f06d06
+    );
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+
+     margin-left: 200px;
+     margin-top: 720px;
+     z-index: -50;
+
+
+
+}
+
+#ball3{
+	width: 100px;
+	height: 100px;
+	background:  radial-gradient(
+      circle closest-side,
+      yellow,
+      #f06d06
+    );
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+
+     margin-left: 200px;
+     margin-top: 870px;
+     z-index: -50;
+
+
+
+}
+
+#ball4{
+	width: 100px;
+	height: 100px;
+	background:  radial-gradient(
+      circle closest-side,
+      yellow,
+      #f06d06
+    );
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+
+     margin-left: 200px;
+     margin-top: 1020px;
+     z-index: -50;
+
+
+
+}
+
+.balls{
+	position: absolute;
+	margin-top: 60px;
+	z-index: -50;
+}
+
+
+#ball a p{
+	text-decoration: none;
+
+	font-family: sans-serif;
+	color: red;
+	font-size: 30pt;
+	margin-left: 33px;
+	margin-top: 33px;
+	padding: 0px;
+	
+}
+
+#trans{
+
+	width: 10px;
+	height:50px;
+	background-color: blue;
+	margin-top: 1200px;
+	position: absolute;
+}
+
+#demo{
+	display: none;
+	color: red;
+	font-size: 20pt;
+	margin-left: 20px;
+}
+
+#demo2{
+	display: none;
+	color: red;
+	font-size: 20pt;
+	margin-left: 20px;
+}
+#demo3{
+	display: none;
+	color: red;
+	font-size: 20pt;
+	margin-left: 20px;
+}
+#demo4{
+	display: none;
+	color: red;
+	font-size: 20pt;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+

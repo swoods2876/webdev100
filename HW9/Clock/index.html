@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style> #hour{ border: solid 1px black; font-size: 162pt;  padding: 0px; display: inline; color:red;
+    animation:myHour 240s;
+  -moz-animation:myHour 240s infinite; /* Firefox */
+-webkit-animation:myHour 240s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes myHour /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+ 
+    @-webkit-keyframes myHour /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+ #minutes{ border: solid 1px black; font-size: 162pt; display: inline; color:red;
+    animation:myMin 120s;
+  -moz-animation:myMin 120s infinite; /* Firefox */
+-webkit-animation:myMin 120s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes myMin /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+ 
+    @-webkit-keyframes myMin /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+
+            #seconds{ border: solid 1px black; font-size: 162pt;  padding: 0px; display: inline; color:red;
+    animation:myfirst 60s;
+  -moz-animation:myfirst 60s infinite; /* Firefox */
+-webkit-animation:myfirst 60s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+ 
+    @-webkit-keyframes myfirst /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+
+        #milliseconds{ 
+            border: solid 1px black; font-size: 162pt;  padding: 0px; display: inline; color:purple;
+    animation:mySecond 30s;
+  -moz-animation:mySecond 30s infinite; /* Firefox */
+-webkit-animation:mySecond 30s infinite; /* Safari and Chrome */
+  }
+
+
+  @-moz-keyframes mySecond /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+}
+ 
+    @-webkit-keyframes mySecond /* Firefox */
+{
+0%   {color:red;}
+25%  {color:yellow;}
+50%   {color:red;}
+75%   {color:blue;}
+100%   {color:purple;}
+};</style>
+
+<script>
+function startTime() {
+    var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var s=today.getSeconds();
+    var ms=today.getMilliseconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById("hour").innerHTML = h+":";
+    document.getElementById("minutes").innerHTML = m+":";
+    document.getElementById("seconds").innerHTML = s+":";
+    document.getElementById("milliseconds").innerHTML = ms;
+    var t = setTimeout(function(){startTime()},1);
+}
+
+function checkTime(i) {
+    if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="hour"></div>
+<div id="minutes"></div>
+<div id="seconds"></div>
+<div id="milliseconds"></div>
+
+</body>
+</html>

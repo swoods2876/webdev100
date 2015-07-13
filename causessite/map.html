@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>SOUPerteer</title>
+        <!--<link rel="stylesheet" href="css/custom.css">-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css"/>
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 959px") href="css/tablet.css"/>
+       <link rel="stylesheet" media="only screen and (min-width: 960px") href="css/custom.css"/>
+        <meta name= "viewpoint" content="initial-scale=1">
+	</head>
+	
+	<body>
+
+		<div id="wrap">
+
+			<div id="lightbox">
+		  		<div id="thankYou">
+		  			<h1>Congratulations</h1>
+		  		</div>
+		  	</div>
+
+			<div id="header">
+                <h1>SOUPerteer</h1>				
+
+				<nav>
+					<ul>
+					  <li><a href="index.html">Home</a></li>
+					  <li><a href="donate.html">Donate</a></li>
+					</ul>
+				</nav>
+			
+			</div>
+
+			<div id="KitchenContent">
+				<p id="kitch">Find a Soup Kitchen Near You!</p>
+
+			</div>
+
+			<div id="Find">
+				<div id="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1438239633053!2d-74.00961269999999!3d40.7368607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ea54c9aca9%3A0x87988d752be4f5f2!2s463+West+St%2C+New+York%2C+NY+10014!5e0!3m2!1sen!2sus!4v1433961875550" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				</div>
+
+				<div id="myForm">
+					<form name="myForm" action="congrat.html" onsubmit="return validateForm()" method="post" type="text" value="Some Value">
+                    	<input type="text" name="name" placeholder="name" text="name">
+                    	
+                    	<button id="Name">Name</button>
+                   
+                   	</form>
+
+
+	               	<input id="Email" name="Email" type="text">
+                	<button>Email</button>
+
+                	<input id="Zipcode" name="zip Code" type="number" min="10000">
+                	<button id="Zip" onclick="myFunction()">Zip Code</button>
+                	<p id="Zip">Please Enter a Zip Code</p>
+
+		  		</div>
+
+
+          	</div>
+
+			<div id="answer">
+			</div>
+
+			 <div id="footer">
+                  <p>Thank You</p>
+              </div>
+
+		</div> <!--wrap end-->
+
+	</body>
+</html>
